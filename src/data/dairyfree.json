@@ -1,0 +1,139 @@
+{
+    "recipes": [
+      {
+        "title": "Easy Vegan Chickpea Curry",
+        "category": ["Dinner", "Vegan"],
+        "ingredients": [
+          "1 tablespoon olive oil",
+          "1 yellow onion, diced",
+          "5 cloves garlic, minced",
+          "4 fresh thyme sprigs",
+          "1 inch fresh ginger, minced or grated",
+          "3 medium globe tomatoes, rough chop",
+          "1 tablespoon tomato paste + 1 tablespoon water",
+          "2 tablespoons curry powder",
+          "1 teaspoon salt, more or less to taste",
+          "½ teaspoon allspice",
+          "½ teaspoon ground ginger",
+          "½ teaspoon ground cumin",
+          "½ teaspoon garam masala",
+          "¼ teaspoon turmeric",
+          "⅛ teaspoon red pepper flakes, more or less to taste",
+          "15 oz can coconut milk, full fat (400ml)",
+          "½ cup vegetable stock (120ml)",
+          "29 oz chickpeas, rinsed and drained (878g)",
+          "2-3 cups fresh spinach, packed, chopped"
+        ],
+        "directions": [
+          "Saute onions until softened, then add garlic, fresh thyme, and ginger.",
+          "Add tomatoes and break them into smaller pieces. Cook for a few minutes.",
+          "Add tomato paste and all the spices. Stir to combine.",
+          "Add coconut milk and vegetable stock. Stir until well combined.",
+          "Add chickpeas and let the mixture simmer for 20-25 minutes until it reduces and becomes creamy.",
+          "Add spinach in the last few minutes to wilt down.",
+          "Serve over rice with naan or switch up rice for quinoa. Top with red or green onions and more red flakes if desired."
+        ]
+      },
+      {
+        "title": "Creamy Coconut Rice with Spiced Chickpeas",
+        "category": ["Dinner", "Vegan"],
+        "ingredients": [
+          "[Detailed ingredients list available on the website]"
+        ],
+        "directions": [
+          "Cook coconut rice according to instructions.",
+          "Saute onions, garlic, and spices.",
+          "Add chickpeas and cook until they absorb the flavors.",
+          "Combine with coconut rice and serve."
+        ]
+      },
+      {
+        "title": "Crispy BBQ Chickpeas Grain Bowl",
+        "category": ["30-Minute Dinners", "Vegan"],
+        "ingredients": [
+          "1 can chickpeas, drained and rinsed",
+          "2 tablespoons olive oil",
+          "1 tablespoon BBQ sauce",
+          "1 teaspoon smoked paprika",
+          "Salt and pepper to taste",
+          "Grain of choice (quinoa, brown rice, etc.)",
+          "Optional toppings: avocado, red onion, cilantro"
+        ],
+        "directions": [
+          "Preheat the oven to 400°F (200°C).",
+          "Toss chickpeas with olive oil, BBQ sauce, smoked paprika, salt, and pepper.",
+          "Spread chickpeas on a baking sheet and bake for 20-25 minutes until crispy.",
+          "Serve chickpeas over grain and add desired toppings."
+        ]
+      },
+      {
+        "title": "One Pot Easy Vegan Chicken Noodle Soup",
+        "category": ["30-Minute Dinners", "Vegan"],
+        "ingredients": [
+          "1 tablespoon olive oil",
+          "1 onion, diced",
+          "3 cloves garlic, minced",
+          "2 cups vegetable broth",
+          "1 cup non-dairy milk",
+          "1 teaspoon dried thyme",
+          "½ teaspoon dried basil",
+          "½ teaspoon salt",
+          "¼ teaspoon black pepper",
+          "8 oz vegan noodles",
+          "Optional: tofu or tempeh for protein"
+        ],
+        "directions": [
+          "Saute onions and garlic in olive oil.",
+          "Add vegetable broth, non-dairy milk, thyme, basil, salt, and pepper.",
+          "Bring to a boil, then reduce heat and cook noodles according to package instructions.",
+          "Add tofu or tempeh if using.",
+          "Serve hot and enjoy."
+        ]
+      },
+      {
+        "title": "Easy, One Bowl, Vegan Pumpkin Baked Oatmeal",
+        "category": ["More Breakfast", "Vegan"],
+        "ingredients": [
+          "1 cup rolled oats",
+          "1 cup non-dairy milk",
+          "½ cup canned pumpkin puree",
+          "1 tablespoon maple syrup",
+          "1 teaspoon vanilla extract",
+          "½ teaspoon ground cinnamon",
+          "¼ teaspoon ground nutmeg",
+          "Pinch of salt",
+          "Optional toppings: nuts, seeds, fruit"
+        ],
+        "directions": [
+          "Combine oats, non-dairy milk, pumpkin puree, maple syrup, vanilla extract, cinnamon, nutmeg, and salt in a bowl.",
+          "Pour mixture into a baking dish and bake at 375°F (190°C) for about 25-30 minutes or until set.",
+          "Serve warm with desired toppings."
+        ]
+      },
+      {
+        "title": "Chickpea, Cashew & Broccoli with Garlic Sauce Skillet",
+        "category": ["Asian", "Vegan"],
+        "ingredients": [
+          "1 tablespoon olive oil",
+          "1 onion, diced",
+          "3 cloves garlic, minced",
+          "1 cup broccoli florets",
+          "1 cup chickpeas, drained and rinsed",
+          "½ cup cashews",
+          "2 tablespoons soy sauce",
+          "1 tablespoon rice vinegar",
+          "1 teaspoon grated ginger",
+          "1 teaspoon garlic sauce (or to taste)",
+          "Salt and pepper to taste"
+        ],
+        "directions": [
+          "Saute onions and garlic in olive oil.",
+          "Add broccoli and cook until tender.",
+          "Add chickpeas and cashews. Cook for a few minutes.",
+          "Mix soy sauce, rice vinegar, ginger, and garlic sauce. Pour over the skillet and stir to combine.",
+          "Serve hot over rice or noodles."
+        ]
+      }
+    ]
+  }
+  

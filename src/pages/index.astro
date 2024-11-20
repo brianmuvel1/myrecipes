@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/Layout.astro';
+import RecipeCard from '../components/RecipeCard.astro';
+import SearchBar from '../components/SearchBar.astro';
+import { loadAllRecipes } from '../utils/recipeLoader';
+
+const recipes = await loadAllRecipes();
+const allCategories = [...new Set(recipes.flatMap(recipe => recipe.category))];
+---
+
+<Layout title="Recipe Website">
+  <main class="container mx-auto px-4 py-8">
+    <h1 class="text-4xl font-bold text-center mb-8">Delicious Recipes</h1>
+    
+    <SearchBar categories={allCategories} />
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {recipes.map(recipe => (
+        <RecipeCard
+          title={recipe.title}
+          image={recipe.image}
+          ingredients={recipe.ingredients}
+          directions={recipe.directions}
+          category={recipe.category}
+        />
+      ))}
+    </div>
+  </main>
+</Layout>

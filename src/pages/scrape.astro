@@ -1,0 +1,99 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ScraperForm from '../components/ScraperForm.astro';
+
+export const prerender = false;
+---
+
+<Layout title="Recipe Scraper">
+  <main class="container mx-auto px-4 py-8">
+    <h1 class="text-4xl font-bold text-center mb-8">Recipe Scraper</h1>
+    
+    <div class="max-w-2xl mx-auto space-y-8">
+      <ScraperForm
+        type="single"
+        title="Scrape Single Recipe"
+        placeholder="https://example.com/recipe"
+      />
+
+      <ScraperForm
+        type="multiple"
+        title="Scrape Multiple Recipes"
+        placeholder="https://example.com/recipes"
+      />
+    </div>
+  </main>
+</Layout>
+
+<script>
+  import type { ScrapingResult } from '../utils/types';
+
+  function showResult(element: HTMLElement | null, success: boolean, message: string) {
+    if (!element) return;
+    
+    element.textContent = message;
+    element.className = `mt-4 p-4 rounded-md ${
+      success ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'
+    }`;
+    element.classList.remove('hidden');
+  }
+
+  function setLoading(form: HTMLFormElement, isLoading: boolean) {
+    const button = form.querySelector('[data-submit-button]');
+    const buttonText = form.querySelector('[data-button-text]');
+    const spinner = form.querySelector('[data-loading-spinner]');
+    
+    if (button && buttonText && spinner) {
+      button.setAttribute('disabled', isLoading.toString());
+      buttonText.textContent = isLoading 
+        ? 'Scraping...' 
+        : `Scrape Recipe${form.id.includes('multiple') ? 's' : ''}`;
+      spinner.classList.toggle('hidden', !isLoading);
+    }
+  }
+
+  async function handleSubmit(e: SubmitEvent) {
+    e.preventDefault();
+    const form = e.target as HTMLFormElement;
+    const type = form.id.includes('multiple') ? 'multiple' : 'single';
+    const resultElement = document.getElementById(`${type}RecipeResult`);
+    const url = (form.querySelector('input[type="url"]') as HTMLInputElement).value;
+
+    setLoading(form, true);
+
+    try {
+      const response = await fetch('/api/scrape', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ url, type }),
+      });
+
+      const result: ScrapingResult = await response.json();
+      
+      if (response.ok) {
+        const message = type === 'multiple' 
+          ? `Successfully scraped ${result.count} recipes!` 
+          : 'Recipe successfully scraped and saved!';
+        showResult(resultElement, true, message);
+        form.reset();
+      } else {
+        showResult(resultElement, false, result.message || `Failed to scrape recipe${type === 'multiple' ? 's' : ''}`);
+      }
+    } catch (error) {
+      showResult(
+        resultElement, 
+        false, 
+        `An error occurred while scraping the recipe${type === 'multiple' ? 's' : ''}`
+      );
+    } finally {
+      setLoading(form, false);
+    }
+  }
+
+  // Add submit handlers to both forms
+  document.querySelectorAll('form').forEach(form => {
+    form.addEventListener('submit', handleSubmit);
+  });
+</script>

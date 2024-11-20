@@ -1,0 +1,234 @@
+{
+  "recipes": [
+    {
+      "title": "Lentil Bolognese",
+      "category": ["Dinner", "Vegan"],
+      "ingredients": [
+        "1 cup brown or green lentils, rinsed and drained",
+        "2 tablespoons olive oil",
+        "1 onion, chopped",
+        "3 cloves garlic, minced",
+        "2 carrots, chopped",
+        "2 celery stalks, chopped",
+        "1 can (28 oz) crushed tomatoes",
+        "1 cup vegetable broth",
+        "1 teaspoon dried basil",
+        "1 teaspoon dried oregano",
+        "Salt and pepper, to taste",
+        "Red wine (optional)",
+        "Nutritional yeast (optional)"
+      ],
+      "directions": [
+        "Saute the onion, garlic, carrots, and celery in olive oil until the vegetables are tender.",
+        "Add the lentils, crushed tomatoes, vegetable broth, basil, oregano, salt, and pepper. Bring to a boil, then reduce heat and simmer until the lentils are tender.",
+        "Season with red wine and nutritional yeast if using.",
+        "Serve over pasta."
+      ]
+    },
+    {
+      "title": "Farmer’s Market Vegetarian Enchiladas",
+      "category": ["Dinner", "Vegetarian"],
+      "ingredients": [
+        "8-10 corn tortillas",
+        "1 cup black beans, cooked",
+        "1 cup roasted vegetables (such as zucchini, bell peppers, onions)",
+        "2 cups enchilada sauce (homemade or store-bought)",
+        "1 cup shredded cheese (Monterey Jack or Cheddar)",
+        "Fresh cilantro, chopped",
+        "Optional toppings: sour cream, avocado, salsa"
+      ],
+      "directions": [
+        "Preheat the oven to 375°F (190°C).",
+        "Fill tortillas with black beans and roasted vegetables.",
+        "Roll the tortillas and place them in a baking dish. Cover with enchilada sauce and cheese.",
+        "Bake until the cheese is melted and bubbly.",
+        "Garnish with cilantro and add desired toppings."
+      ]
+    },
+    {
+      "title": "Butternut Squash Risotto",
+      "category": ["Dinner", "Vegetarian"],
+      "ingredients": [
+        "1 medium butternut squash, peeled and cubed",
+        "2 tablespoons olive oil",
+        "1 onion, chopped",
+        "3 cloves garlic, minced",
+        "1 cup Arborio rice",
+        "4 cups vegetable broth, warmed",
+        "1/2 cup white wine (optional)",
+        "2 tablespoons butter",
+        "1/4 cup grated Parmesan cheese",
+        "Fresh sage leaves, chopped",
+        "Maple pecans (optional)"
+      ],
+      "directions": [
+        "Roast the butternut squash in the oven until tender.",
+        "Saute the onion and garlic in olive oil until softened.",
+        "Add the Arborio rice and cook until lightly toasted.",
+        "Add white wine (if using) and cook until absorbed.",
+        "Gradually add warmed broth, stirring continuously until the rice is cooked.",
+        "Stir in roasted squash, butter, and Parmesan cheese.",
+        "Garnish with sage and maple pecans if desired."
+      ]
+    },
+    {
+      "title": "Indian Shepherd’s Pie",
+      "category": ["Dinner", "Vegan"],
+      "ingredients": [
+        "1 cup brown or green lentils, rinsed and drained",
+        "2 cups mixed vegetables (such as carrots, peas, corn)",
+        "2 tablespoons olive oil",
+        "1 onion, chopped",
+        "2 cloves garlic, minced",
+        "1 teaspoon Garam Masala",
+        "1 teaspoon curry powder",
+        "Salt and pepper, to taste",
+        "2-3 medium potatoes, peeled and cubed",
+        "1/4 cup butter or ghee"
+      ],
+      "directions": [
+        "Cook the lentils and mixed vegetables in a flavorful broth with onion, garlic, Garam Masala, and curry powder.",
+        "Boil the potatoes until tender, then mash with butter or ghee.",
+        "Transfer the lentil mixture to a baking dish and top with mashed potatoes.",
+        "Bake in the oven until the potatoes are golden brown."
+      ]
+    },
+    {
+      "title": "Moroccan Cauliflower Bowls",
+      "category": ["Dinner", "Vegan"],
+      "ingredients": [
+        "1 head of cauliflower, broken into florets",
+        "2 tablespoons olive oil",
+        "1 onion, chopped",
+        "2 cloves garlic, minced",
+        "1 can chickpeas, drained and rinsed",
+        "1 cup Moroccan rice",
+        "2 cups water or broth",
+        "1 teaspoon ground cumin",
+        "1 teaspoon smoked paprika",
+        "Salt and pepper, to taste",
+        "Chopped almonds, pomegranate seeds, and fresh spinach for garnish"
+      ],
+      "directions": [
+        "Roast the cauliflower in the oven with olive oil, onion, and garlic until tender.",
+        "Cook the Moroccan rice according to package instructions.",
+        "Mix the roasted cauliflower with chickpeas, cumin, smoked paprika, salt, and pepper.",
+        "Serve over Moroccan rice and garnish with almonds, pomegranate seeds, and spinach."
+      ]
+    },
+    {
+      "title": "Butternut Squash Lasagna",
+      "category": ["Dinner", "Vegetarian"],
+      "ingredients": [
+        "1 medium butternut squash, peeled and cubed",
+        "2 tablespoons olive oil",
+        "1 onion, chopped",
+        "3 cloves garlic, minced",
+        "8-10 lasagna noodles",
+        "2 cups marinara sauce",
+        "1 cup ricotta cheese",
+        "1 cup shredded mozzarella cheese",
+        "1/2 cup grated Parmesan cheese",
+        "Fresh sage leaves, chopped"
+      ],
+      "directions": [
+        "Roast the butternut squash in the oven until tender.",
+        "Saute the onion and garlic in olive oil until softened.",
+        "Cook the lasagna noodles according to package instructions.",
+        "Layer the lasagna with marinara sauce, roasted squash, ricotta cheese, mozzarella cheese, and Parmesan cheese.",
+        "Bake in the oven until the cheese is melted and bubbly.",
+        "Garnish with sage."
+      ]
+    },
+    {
+      "title": "Eggplant Parmesan",
+      "category": ["Dinner", "Vegetarian"],
+      "ingredients": [
+        "2 medium eggplants, sliced into 1/4-inch thick rounds",
+        "1 cup all-purpose flour",
+        "1 cup breadcrumbs",
+        "1 cup grated Parmesan cheese",
+        "2 cups marinara sauce",
+        "1 cup shredded mozzarella cheese",
+        "Fresh basil leaves, chopped"
+      ],
+      "directions": [
+        "Bread the eggplant slices with flour, breadcrumbs, and Parmesan cheese.",
+        "Bake the eggplant slices in the oven until golden brown.",
+        "Layer the eggplant slices with marinara sauce and mozzarella cheese in a baking dish.",
+        "Bake in the oven until the cheese is melted and bubbly.",
+        "Garnish with basil."
+      ]
+    },
+    {
+      "title": "Miso Pasta",
+      "category": ["Dinner", "Vegan"],
+      "ingredients": [
+        "8 oz pasta of your choice",
+        "2 tablespoons miso paste",
+        "2 tablespoons butter or vegan butter",
+        "2 cloves garlic, minced",
+        "1 cup mixed mushrooms, sliced",
+        "1/4 cup grated Parmesan cheese (or vegan alternative)",
+        "Fresh parsley, chopped"
+      ],
+      "directions": [
+        "Cook the pasta according to package instructions.",
+        "Whisk together miso paste and butter until smooth.",
+        "Saute the garlic and mushrooms in a pan until the mushrooms are tender.",
+        "Combine the cooked pasta, miso mixture, and mushroom mixture.",
+        "Top with Parmesan cheese and parsley."
+      ]
+    },
+    {
+      "title": "Baked Ziti",
+      "category": ["Dinner", "Vegetarian"],
+      "ingredients": [
+        "1 pound ziti pasta",
+        "2 cups marinara sauce",
+        "1 cup ricotta cheese",
+        "1 cup shredded mozzarella cheese",
+        "1/2 cup grated Parmesan cheese",
+        "1 cup fresh spinach leaves",
+        "1 cup sliced mushrooms"
+      ],
+      "directions": [
+        "Cook the ziti pasta according to package instructions.",
+        "Mix the ricotta cheese with spinach and a pinch of salt and pepper.",
+        "Layer the ziti pasta, marinara sauce, ricotta mixture, mozzarella cheese, and Parmesan cheese in a baking dish.",
+        "Bake in the oven until the cheese is melted and bubbly."
+      ]
+    },
+    {
+      "title": "Easy to Make Pad Thai",
+      "category": ["Dinner", "Thai"],
+      "ingredients": [
+        "4 ounces rice noodles",
+        "3 tablespoons oil (peanut oil, avocado oil, or coconut oil)",
+        "8 ounces protein (chicken breast, tofu, or prawns - peeled and deveined)",
+        "Salt and pepper, to taste",
+        "1 large shallot, finely diced",
+        "4 fat cloves garlic, roughly chopped",
+        "2 eggs, whisked with a generous 3-finger pinch of salt (or no salt for vegan option)",
+        "1 lime",
+        "1 1/2 cups bean sprouts",
+        "Pad Thai Sauce:",
+        "3 tablespoons fish sauce (or vegan fish sauce)",
+        "3 tablespoons brown sugar (or coconut sugar, palm sugar, or regular sugar)",
+        "3 tablespoons rice vinegar",
+        "3 tablespoons soy sauce"
+      ],
+      "directions": [
+        "Pour boiling water over the rice noodles and let them soak until they are soft and pliable (about 5-6 minutes), but not overly soft. Drain and rinse with cold water to stop cooking.",
+        "Whisk the eggs in a medium bowl with a pinch of salt. Set aside by the stove.",
+        "Whisk the fish sauce, rice vinegar, brown sugar, and soy sauce together in a small bowl. Ensure the sugar completely dissolves. Set aside.",
+        "Slice chicken into very thin strips and season with salt and pepper. For crispy tofu, pat dry extra firm tofu with paper towels to release moisture, then cut into strips or cubes.",
+        "Heat a little oil in the wok over medium heat. Add the shallot and garlic and stir-fry for 2-3 minutes. Scoot the shallot mixture to the side, add more oil, and pour in the eggs. Scramble and break them apart into little bits, then move them to the side.",
+        "Add more oil, then the noodles, and stir-fry for 2-3 minutes until the noodles are soft and pliable and slightly crispy. Add the protein (chicken, tofu, or prawns) and stir-fry until cooked through.",
+        "Pour in the Pad Thai Sauce and stir-fry everything together.",
+        "Add the bean sprouts and stir-fry for another minute.",
+        "Serve immediately, garnishing with lime wedges, additional bean sprouts, and any desired toppings like peanuts or chili flakes."
+      ]
+    }
+  ]
+}

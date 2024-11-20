@@ -1,0 +1,81 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+export const prerender = false;
+
+---
+
+<Layout title="Recipe Admin">
+  <main class="container mx-auto px-4 py-8">
+    <h1 class="text-4xl font-bold text-center mb-8">Recipe Admin</h1>
+    
+    <div class="max-w-2xl mx-auto bg-white rounded-lg shadow-md p-6">
+      <form 
+        action="/api/upload" 
+        method="POST" 
+        enctype="multipart/form-data"
+        class="space-y-6"
+        id="recipeForm"
+      >
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-2">
+            Upload Recipe JSON File
+          </label>
+          <input
+            type="file"
+            name="recipeFile"
+            accept=".json"
+            required
+            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+        
+        <button
+          type="submit"
+          class="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors"
+        >
+          Upload Recipe File
+        </button>
+      </form>
+      
+      <div id="message" class="mt-4 text-center hidden"></div>
+    </div>
+  </main>
+</Layout>
+
+<script>
+  const form = document.getElementById('recipeForm') as HTMLFormElement;
+  const messageDiv = document.getElementById('message');
+  
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    
+    try {
+      const formData = new FormData(form);
+      const response = await fetch('/api/upload', {
+        method: 'POST',
+        body: formData,
+      });
+      
+      const result = await response.json();
+      
+      if (messageDiv) {
+        messageDiv.textContent = result.message;
+        messageDiv.className = `mt-4 text-center p-4 rounded-md ${
+          response.ok ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'
+        }`;
+        messageDiv.classList.remove('hidden');
+      }
+      
+      if (response.ok) {
+        form.reset();
+      }
+    } catch (error) {
+      if (messageDiv) {
+        messageDiv.textContent = 'An error occurred while uploading the file.';
+        messageDiv.className = 'mt-4 text-center p-4 rounded-md bg-red-100 text-red-800';
+        messageDiv.classList.remove('hidden');
+      }
+    }
+  });
+</script>

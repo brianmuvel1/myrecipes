@@ -1,0 +1,254 @@
+{
+    "recipes": [
+      {
+        "title": "Double Chocolate Chip Cookies",
+        "category": ["Cookies", "Vegetarian", "Dessert"],
+        "ingredients": [
+          "1 cup chocolate chips",
+          "1/2 cup cocoa powder",
+          "1 cup sugar",
+          "2 eggs"
+        ],
+        "directions": [
+          "Preheat oven to 350°F.",
+          "Mix all ingredients in a bowl.",
+          "Bake for 12 minutes."
+        ]
+      },
+      {
+        "title": "Snickerdoodles",
+        "category": ["Cookies", "Vegetarian", "Dessert"],
+        "ingredients": [
+          "1 cup butter",
+          "1 cup sugar",
+          "2 eggs",
+          "2 cups flour",
+          "1 tsp cream of tartar"
+        ],
+        "directions": [
+          "Preheat oven to 375°F.",
+          "Cream butter and sugar.",
+          "Add eggs and mix.",
+          "Stir in flour and cream of tartar.",
+          "Bake for 10 minutes."
+        ]
+      },
+      {
+        "title": "Apple Fritter Cookies",
+        "category": ["Cookies", "Vegetarian", "Dessert"],
+        "ingredients": [
+          "1 cup diced apples",
+          "1 tsp cinnamon",
+          "1 cup sugar",
+          "2 cups flour"
+        ],
+        "directions": [
+          "Preheat oven to 350°F.",
+          "Mix all ingredients in a bowl.",
+          "Scoop onto a baking sheet and bake for 10-12 minutes."
+        ]
+      },
+      {
+        "title": "Olive Oil Cake",
+        "category": ["Cakes", "Vegetarian", "Dessert"],
+        "ingredients": [
+          "1 cup olive oil",
+          "1 cup sugar",
+          "3 eggs",
+          "2 cups flour",
+          "1 cup fresh berries"
+        ],
+        "directions": [
+          "Preheat oven to 350°F.",
+          "Mix olive oil and sugar.",
+          "Add eggs and mix.",
+          "Stir in flour.",
+          "Fold in berries.",
+          "Bake for 30 minutes."
+        ]
+      },
+      {
+        "title": "Funfetti Cake",
+        "category": ["Cakes", "Vegetarian", "Dessert"],
+        "ingredients": [
+          "1 cup butter",
+          "1 cup sugar",
+          "3 eggs",
+          "2 1/2 cups flour",
+          "1/2 cup sprinkles"
+        ],
+        "directions": [
+          "Preheat oven to 350°F.",
+          "Cream butter and sugar together.",
+          "Add eggs one at a time and mix.",
+          "Gradually add flour and mix until combined.",
+          "Fold in sprinkles and bake for 25 minutes."
+        ]
+      },
+      {
+        "title": "Vegan Gluten Free Chocolate Cake",
+        "category": ["Cakes", "Vegan", "Dessert"],
+        "ingredients": [
+          "1 cup vegan chocolate",
+          "1/2 cup almond milk",
+          "1 1/2 cups gluten-free flour",
+          "1 cup sugar",
+          "1/2 cup cocoa powder"
+        ],
+        "directions": [
+          "Preheat oven to 350°F.",
+          "Melt the chocolate and mix with almond milk and sugar.",
+          "Sift in flour and cocoa powder.",
+          "Mix until smooth and pour into a cake pan.",
+          "Bake for 30 minutes."
+        ]
+      },
+      {
+        "title": "Brown Butter Brownies",
+        "category": ["Brownies", "Vegetarian", "Dessert"],
+        "ingredients": [
+          "1 cup brown butter",
+          "2 cups sugar",
+          "4 eggs",
+          "1 cup flour",
+          "1 cup chocolate chips"
+        ],
+        "directions": [
+          "Preheat oven to 350°F.",
+          "Brown the butter in a saucepan.",
+          "Mix in sugar and eggs in a bowl.",
+          "Stir in flour and chocolate chips.",
+          "Pour into a baking dish and bake for 25 minutes."
+        ]
+      },
+      {
+        "title": "Lemon Brownies",
+        "category": ["Brownies", "Vegetarian", "Dessert"],
+        "ingredients": [
+          "1/2 cup butter",
+          "1 cup sugar",
+          "2 eggs",
+          "1 cup flour",
+          "zest and juice of 1 lemon"
+        ],
+        "directions": [
+          "Preheat oven to 350°F.",
+          "Beat butter and sugar together.",
+          "Add eggs and mix well.",
+          "Stir in flour, zest, and lemon juice.",
+          "Bake for 20-25 minutes."
+        ]
+      },
+      {
+        "title": "Fudgy Raspberry Brownies",
+        "category": ["Brownies", "Vegetarian", "Dessert"],
+        "ingredients": [
+          "1 cup butter",
+          "2 cups sugar",
+          "4 eggs",
+          "1 cup flour",
+          "1 cup raspberries"
+        ],
+        "directions": [
+          "Preheat oven to 350°F.",
+          "Melt butter in a saucepan.",
+          "Mix in sugar and eggs.",
+          "Add flour and fold in raspberries.",
+          "Bake for 30 minutes."
+        ]
+      },
+      {
+        "title": "No Churn Chocolate Oreo Ice Cream",
+        "category": ["Ice Cream", "Vegetarian", "Dessert"],
+        "ingredients": [
+          "2 cups heavy cream",
+          "1 can sweetened condensed milk",
+          "1 cup crushed Oreos"
+        ],
+        "directions": [
+          "Whip heavy cream until stiff peaks form.",
+          "Fold in sweetened condensed milk and crushed Oreos.",
+          "Pour into a container and freeze for 4 hours."
+        ]
+      },
+      {
+        "title": "No Churn Strawberry Cheesecake Ice Cream",
+        "category": ["Ice Cream", "Vegetarian", "Dessert"],
+        "ingredients": [
+          "2 cups heavy cream",
+          "1 can sweetened condensed milk",
+          "1 cup strawberries, pureed",
+          "1/2 cup cheesecake chunks"
+        ],
+        "directions": [
+          "Whip heavy cream until stiff peaks form.",
+          "Fold in sweetened condensed milk, strawberry puree, and cheesecake chunks.",
+          "Pour into a container and freeze for 4 hours."
+        ]
+      },
+      {
+        "title": "No Churn Blackberry Waffle Chocolate Chip Ice Cream",
+        "category": ["Ice Cream", "Vegetarian", "Dessert"],
+        "ingredients": [
+          "2 cups heavy cream",
+          "1 can sweetened condensed milk",
+          "1 cup blackberries",
+          "1 cup crushed waffle cones",
+          "1/2 cup chocolate chips"
+        ],
+        "directions": [
+          "Whip heavy cream until stiff peaks form.",
+          "Fold in sweetened condensed milk, blackberries, crushed waffle cones, and chocolate chips.",
+          "Pour into a container and freeze for 4 hours."
+        ]
+      },
+      {
+        "title": "Golden Graham S’mores Bars",
+        "category": ["Bars", "Vegetarian", "Dessert"],
+        "ingredients": [
+          "1 box Golden Grahams",
+          "2 cups mini marshmallows",
+          "1 cup chocolate chips",
+          "1/2 cup butter"
+        ],
+        "directions": [
+          "Melt butter and mix with marshmallows and chocolate chips.",
+          "Fold in Golden Grahams.",
+          "Press into a baking dish and cool before cutting."
+        ]
+      },
+      {
+        "title": "Apple Fritter Bread",
+        "category": ["Breads", "Vegetarian", "Dessert"],
+        "ingredients": [
+          "2 cups diced apples",
+          "1/2 cup sugar",
+          "1/2 cup butter",
+          "2 cups flour",
+          "2 eggs"
+        ],
+        "directions": [
+          "Preheat oven to 350°F.",
+          "Mix all ingredients in a bowl.",
+          "Pour into a loaf pan and bake for 60 minutes."
+        ]
+      },
+      {
+        "title": "Chocolate Chip Muffins",
+        "category": ["Muffins", "Vegetarian", "Dessert"],
+        "ingredients": [
+          "2 cups flour",
+          "1 cup chocolate chips",
+          "1/2 cup sugar",
+          "2 eggs",
+          "1 cup milk"
+        ],
+        "directions": [
+          "Preheat oven to 375°F.",
+          "Mix all ingredients together.",
+          "Scoop batter into muffin tin and bake for 20 minutes."
+        ]
+      }
+    ]
+  }
+  
