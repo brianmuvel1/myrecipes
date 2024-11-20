@@ -108,7 +108,7 @@ It would look something like this:
     }
   ]
 }
-``
+``````
 
 2. **Search for Recipes**: Use the search bar located at the top of the page. Search by:
    - **Recipe Title**
