@@ -119,6 +119,8 @@ It would look something like this:
 
 4. **Enjoy AI-enhanced Search**: Our AI-powered search will improve over time as it learns from your input. It’s designed to suggest the most relevant recipes based on your preferences, helping you find exactly what you're looking for.
 
+
+
 ---
 
 ## 📸 Screenshots
