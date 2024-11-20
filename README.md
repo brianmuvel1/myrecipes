@@ -148,7 +148,7 @@ We follow the **GitHub flow** for collaborative development, so feel free to sub
 
 ## 📜 License
 
-This project is licensed under the **MIT License**. See the [_licence](license.md) file for more details.
+This project is licensed under the **MIT License**. See the [licence](_license/license.md) file for more details.
 
 ---
 
