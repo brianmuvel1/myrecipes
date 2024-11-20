@@ -1,7 +1,11 @@
 ##License 2024
 
-CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
-The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.
+You are free to:
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material for non-commercial purposes
 
-You can copy, modify, distribute, and perform the work, even for commercial purposes, all without asking permission.
+As long as you follow these terms:
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+- **Non-Commercial** — You may not use the material for commercial purposes without obtaining permission.
