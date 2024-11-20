@@ -125,7 +125,7 @@ It would look something like this:
 
 Here are a few screenshots to give you a preview of the app:
 
-![Recipe Finder Screenshot](_assets/recipe-finder-screenshot.png)
+![Recipe Finder Screenshot](.assets/recipe-finder-screenshot.png)
 
 *(Screenshots are pending—please upload an image of the app in use)*
 
@@ -148,7 +148,7 @@ We follow the **GitHub flow** for collaborative development, so feel free to sub
 
 ## 📜 License
 
-This project is licensed under the **MIT License**. See the [licence](_license/license.md) file for more details.
+This project is licensed under the **MIT License**. See the [licence](LICENSE.md) file for more details.
 
 ---
 
